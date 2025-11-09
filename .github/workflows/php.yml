@@ -1,9 +1,6 @@
 name: minha primeira action
 
-on:[push, pull_requests]
-
-permissions:
-  contents: read
+on: [push, pull_request]
 
 jobs:
   build:
