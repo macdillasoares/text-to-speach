@@ -1,7 +1,6 @@
 name: minha primeira action
 
-on:
-  push:[push, pull_requests]
+on:[push, pull_requests]
 
 permissions:
   contents: read
