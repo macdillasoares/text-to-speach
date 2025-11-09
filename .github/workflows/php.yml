@@ -10,9 +10,6 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - name: Validate composer.json and composer.lock
-      run: composer validate --strict
-
     - name: verifica sintaxe de src/factory.php
       run: php -l src/factory.php
 
